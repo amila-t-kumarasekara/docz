@@ -99,4 +99,6 @@ Commit messages should follow the [commit message convention](https://convention
 
 This project exists thanks to all the people who contribute.
 
-<a href="https://github.com/amila-t-kumarasekara/docz/graphs/contributors"><img src="https://opencollective.com/docz/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/amila-t-kumarasekara/docz/graphs/contributors">
+<!-- <img src="https://opencollective.com/docz/contributors.svg?width=890&button=false" /> -->
+</a>
