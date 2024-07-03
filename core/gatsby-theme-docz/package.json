@@ -49,7 +49,7 @@
     "react-helmet-async": "^1.0.4",
     "react-live": "^2.2.1",
     "react-resize-detector": "^4.2.1",
-    "rehype-docz": "^2.4.0",
+    "@ak/rehype-docz": "^2.4.0",
     "rehype-slug": "^2.0.3",
     "remark-docz": "^2.4.0",
     "remark-frontmatter": "^5.0.0",
