@@ -154,7 +154,9 @@ Start by building your site with `yarn docz build`, if you haven't provided a `d
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 
-<a href="https://github.com/doczjs/docz/graphs/contributors"><img src="https://opencollective.com/docz/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/doczjs/docz/graphs/contributors">
+<!-- <img src="https://opencollective.com/docz/contributors.svg?width=890&button=false" /> -->
+</a>
 
 ## Contributing
 
@@ -174,10 +176,10 @@ If you're looking for a place to start make sure to check issues tagged with the
 
 Read the [Contributing Guide](/CONTRIBUTING.md) before you open a pull request.
 
-You can also sponsor us via OpenCollective to help secure docz's future.
+<!-- You can also sponsor us via OpenCollective to help secure docz's future.
 
 <p align="center">
   <a href="https://opencollective.com/docz" target="_blank">
     <img src="https://cdn-std.dprcdn.net/files/acc_649651/Q5nVhT" height="80" alt="Open Collective">
   </a>
-</p>
+</p> -->
