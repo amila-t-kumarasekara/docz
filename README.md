@@ -16,7 +16,7 @@
 
 > So, we're working in a [new version](https://github.com/doczjs/docz/tree/new) that will include an entire core refactoring/rewritting by adding [Astro](https://astro.build) behind the scenes as bundler and another cools feature.
 
-> Since we really want to don't have so much breakings changes - and try to bring back the spot and quality Docz deserves - this can take a while to be done, please be patient and if you want to help, just send me a message [on my Twitter](https://twitter.com/pedronauck)!
+> Since we really want to don't have so much breakings changes - and try to bring back the spot and quality Docz deserves - this can take a while to be done, please be patient and if you want to help, just send me a message [on my Twitter](https://twitter.com/amila-t-kumarasekara)!
 
 > Issues related to this old version, also won't be answered, ok? 😅
 

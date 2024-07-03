@@ -4,8 +4,8 @@
   "description": "Eslint config of Docz for Javascript",
   "license": "MIT",
   "author": {
-    "name": "Pedro Nauck",
-    "email": "pedronauck@gmail.com"
+    "name": "Amila Kumarasekara",
+    "email": "amila-t-kumarasekara@gmail.com"
   },
   "main": "index.js",
   "files": [
