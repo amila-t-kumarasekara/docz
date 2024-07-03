@@ -1,5 +1,5 @@
 {
-  "name": "docz-rollup",
+  "name": "@ak/docz-rollup",
   "version": "2.4.0",
   "license": "MIT",
   "main": "src/index.js",
@@ -21,22 +21,22 @@
     "typescript": "^3.5.0 || ^4.0.0 || ^5.5.3"
   },
   "dependencies": {
-    "chalk": "^2.4.2",
-    "figures": "3.0.0",
-    "filesize": "^4.1.2",
-    "fs-extra": "^8.1.0",
-    "gzip-size": "^5.1.1",
+    "chalk": "^5.3.0",
+    "figures": "6.1.0",
+    "filesize": "^10.1.2",
+    "fs-extra": "^11.2.0 ",
+    "gzip-size": "^7.0.0",
     "lodash": "^4.17.21",
-    "log-update": "^3.2.0",
-    "rollup": "^1.20.3",
-    "rollup-plugin-alias": "^1.5.2",
-    "rollup-plugin-babel": "^4.3.3",
-    "rollup-plugin-commonjs": "^10.0.1",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-postcss": "^2.0.3",
-    "rollup-plugin-progress": "^1.1.2",
-    "rollup-plugin-typescript2": "^0.22.0"
+    "log-update": "^6.0.0",
+    "rollup": "^4.18.0",
+    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@chrisneedham/rollup-plugin-peer-deps-external": "^2.3.1",
+    "@jonaslideen/rollup-plugin-postcss": "^4.2.1",
+    "@types/rollup-plugin-progress": "^1.1.5",
+    "rollup-plugin-typescript2": "^0.36.0"
   }
 }

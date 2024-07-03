@@ -1,4 +1,4 @@
-import crossSpawn from 'cross-spawn'
+import crossSpawn from '@patrickkfkan/cross-spawn'
 
 export const spawnSync = (command: string, args?: readonly string[]) => {
   const { status } = crossSpawn.sync(command, args, {

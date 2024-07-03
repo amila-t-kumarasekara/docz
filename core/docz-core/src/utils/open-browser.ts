@@ -9,7 +9,7 @@
 
 var chalk = require('chalk')
 var execSync = require('child_process').execSync
-var spawn = require('cross-spawn')
+var spawn = require('@patrickkfkan/cross-spawn')
 var open = require('open')
 
 // https://github.com/sindresorhus/open#app
@@ -97,7 +97,7 @@ function startBrowserProcess(browser: any, url: any) {
   // (It will always open new tab)
   try {
     var options = { app: browser, wait: false }
-    open(url, options).catch(() => {}) // Prevent `unhandledRejection` error.
+    open(url, options).catch(() => { }) // Prevent `unhandledRejection` error.
     return true
   } catch (err) {
     return false

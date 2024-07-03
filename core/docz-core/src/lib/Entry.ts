@@ -9,7 +9,7 @@ import {
   headingsFromAst,
   Heading,
   ParsedData,
-} from 'docz-utils/lib/mdast'
+} from '@ak/docz-utils/lib/mdast'
 
 import * as paths from '../config/paths'
 import { Config } from '../config/argv'

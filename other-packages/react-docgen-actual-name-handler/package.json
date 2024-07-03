@@ -1,5 +1,5 @@
 {
-  "name": "react-docgen-actual-name-handler",
+  "name": "@ak/react-docgen-actual-name-handler",
   "version": "2.4.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -23,7 +23,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "react-docgen": "^4.1.1",
-    "recast": "^0.18.1"
+    "react-docgen": "^7.0.3",
+    "recast": "^0.23.9"
   }
 }

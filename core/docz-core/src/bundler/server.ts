@@ -1,5 +1,5 @@
 import { interpret } from 'xstate'
-import { finds } from 'load-cfg'
+import { finds } from '@ak/load-cfg'
 import findUp from 'find-up'
 
 import { devServerMachine } from './machine'

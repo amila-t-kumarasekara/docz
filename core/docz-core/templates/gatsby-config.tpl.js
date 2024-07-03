@@ -1,4 +1,4 @@
-const { mergeWith } = require('docz-utils')
+const { mergeWith } = require('@ak/docz-utils')
 const fs = require('fs-extra')
 
 let custom = {}

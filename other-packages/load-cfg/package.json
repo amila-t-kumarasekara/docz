@@ -1,5 +1,5 @@
 {
-  "name": "load-cfg",
+  "name": "@ak/load-cfg",
   "version": "2.4.0",
   "description": "Method that can load project configurations based",
   "license": "MIT",
@@ -27,8 +27,8 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
-    "find-up": "^4.1.0",
-    "fs-extra": "^8.1.0",
+    "find-up": "^7.0.0",
+    "fs-extra": "^11.2.0",
     "lodash": "^4.17.21"
   }
 }

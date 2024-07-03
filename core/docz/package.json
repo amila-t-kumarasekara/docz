@@ -1,5 +1,5 @@
 {
-  "name": "docz",
+  "name": "@ak/doczjs",
   "version": "2.4.0",
   "description": "It's has never been so easy to documents your things!",
   "license": "MIT",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/@ak-doczjs/docz.git",
+    "url": "https://github.com/ak-doczjs/docz.git",
     "directory": "core/docz"
   },
   "scripts": {

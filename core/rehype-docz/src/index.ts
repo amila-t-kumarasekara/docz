@@ -1,9 +1,9 @@
 import flatten from 'lodash/flatten'
 import nodeToString from 'hast-util-to-string'
-import { format } from 'docz-utils/lib/format'
-import { componentName, sanitizeCode, removeTags } from 'docz-utils/lib/jsx'
-import { getImportsVariables } from 'docz-utils/lib/imports'
-import { getExportsVariables } from 'docz-utils/lib/exports'
+import { format } from '@ak/docz-utils/lib/format'
+import { componentName, sanitizeCode, removeTags } from '@ak/docz-utils/lib/jsx'
+import { getImportsVariables } from '@ak/docz-utils/lib/imports'
+import { getExportsVariables } from '@ak/docz-utils/lib/exports'
 
 const isPlayground = (name: string) => {
   return name === 'Playground'

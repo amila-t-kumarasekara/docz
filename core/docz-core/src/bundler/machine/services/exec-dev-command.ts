@@ -1,4 +1,4 @@
-import spawn from 'cross-spawn'
+import spawn from '@patrickkfkan/cross-spawn'
 import waitOn from 'wait-on'
 import get from 'lodash/get'
 import path from 'path'
