@@ -1,5 +1,5 @@
 import mdx from '@mdx-js/mdx'
-import remarkDocz from 'remark-docz'
+import remarkDocz from '@ak/remark-docz'
 import plugin from './'
 
 const content = `

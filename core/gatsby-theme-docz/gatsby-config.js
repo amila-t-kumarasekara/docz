@@ -7,7 +7,7 @@ const getRemarkPlugins = () => {
   try {
     plugins = [
       [require('remark-frontmatter'), { type: 'yaml', marker: '-' }],
-      require('remark-docz'),
+      require('@ak/remark-docz'),
     ]
   } catch (err) {
     plugins = []

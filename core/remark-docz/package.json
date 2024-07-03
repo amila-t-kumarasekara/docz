@@ -1,5 +1,5 @@
 {
-  "name": "remark-docz",
+  "name": "@ak/remark-docz",
   "version": "2.4.0",
   "description": "Remark plugin used by docz",
   "license": "MIT",
@@ -26,8 +26,8 @@
   },
   "dependencies": {
     "@babel/generator": "^7.24.7",
-    "@babel/types": "^7.5.5",
-    "unist-util-remove": "^1.0.3",
+    "@babel/types": "^7.24.7",
+    "unist-util-remove": "^4.0.0",
     "unist-util-visit": "^5.0.0"
   }
 }
