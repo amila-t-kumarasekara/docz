@@ -1,0 +1,26 @@
+{
+  "name": "docz-example-with-decorators",
+  "private": true,
+  "version": "2.0.0-rc.41",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "doczrc.js",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "docz dev",
+    "build": "docz build",
+    "serve": "docz serve"
+  },
+  "dependencies": {
+    "docz": "latest",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "typescript": "^3.7.2"
+  }
+}

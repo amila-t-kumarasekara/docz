@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "docz-example-now",
+  "version": "2.0.0-rc.41",
+  "license": "MIT",
+  "files": [
+    "src/",
+    "doczrc.js",
+    "package.json"
+  ],
+  "scripts": {
+    "dev": "docz dev",
+    "//": "temporary hack below fixed with next docz version. Used for running docz on CI",
+    "dev:once": "npx kill-port 3000 && (npm run dev &) && npx wait-on http-get://localhost:3000 && npx kill-port 3000",
+    "build": "npm run dev:once && docz build",
+    "deploy": "npm run build && now"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "docz": "latest",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "now": "^16.1.2"
+  }
+}

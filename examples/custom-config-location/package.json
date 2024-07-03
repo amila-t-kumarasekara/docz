@@ -1,0 +1,17 @@
+{
+  "name": "docz-example-custom-config-location",
+  "private": true,
+  "version": "2.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "docz dev --config src/doczrc.js",
+    "build": "docz build --config src/doczrc.js",
+    "serve": "docz serve"
+  },
+  "dependencies": {
+    "docz": "latest",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
