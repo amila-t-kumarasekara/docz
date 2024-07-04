@@ -33,7 +33,7 @@ const config = {
       }
     },<%}%>
     {
-      resolve: 'gatsby-theme-docz',
+      resolve: '@ak/gatsby-theme-docz',
       options: <%- opts %>
     },<% if (isDoczRepo) {%>
     {
@@ -51,7 +51,7 @@ const config = {
     {
       resolve: 'gatsby-plugin-compile-es6-packages',
       options: {
-        modules: ['docz', 'gatsby-theme-docz'],
+        modules: ['@ak/docz', '@ak/gatsby-theme-docz'],
       },
     },<%}%>
   ],

@@ -37,7 +37,7 @@
     "gatsby": "^5.13.6",
     "gatsby-plugin-eslint": "^4.0.4",
     "gatsby-plugin-typescript": "^5.13.1",
-    "gatsby-theme-docz": "^2.4.0",
+    "@ak/gatsby-theme-docz": "^2.4.0",
     "lodash": "^4.17.21",
     "marksy": "^8.0.0",
     "match-sorter": "^6.3.4",
