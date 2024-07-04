@@ -1,4 +1,4 @@
-import { config, copy } from 'docz-rollup'
+import { config, copy } from '@ak/docz-rollup'
 
 export default config({
   input: './src/index.ts',

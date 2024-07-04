@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-export-metadata",
+  "name": "@ak/babel-plugin-export-metadata",
   "version": "2.4.0",
   "description": "Add file metadata for function declarations",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/template": "^7.4.4",
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@babel/template": "^7.24.7",
     "babel-core": "7.0.0-bridge.0",
     "lodash": "^4.17.21"
   }

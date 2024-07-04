@@ -1,6 +1,6 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import { theme, useConfig, ComponentsProvider } from 'docz'
+import { theme, useConfig, ComponentsProvider } from '@ak/docz'
 import { Styled, ThemeProvider } from 'theme-ui'
 
 import defaultTheme from '~theme'

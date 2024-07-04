@@ -1,4 +1,4 @@
-const { Plugin, parseConfig } = require('docz-core')
+const { Plugin, parseConfig } = require('@ak/docz-core')
 
 module.exports = async (params, opts = {}) => {
   const config = await parseConfig(opts)
@@ -8,7 +8,7 @@ module.exports = async (params, opts = {}) => {
   const { actions, stage } = params
 
   actions.setBabelPlugin({
-    name: 'babel-plugin-export-metadata',
+    name: '@ak/babel-plugin-export-metadata',
     options: {
       root: paths.getRootDir(config),
     },

@@ -1,4 +1,4 @@
-const { setArgs, parseConfig, getBaseConfig } = require('docz-core')
+const { setArgs, parseConfig, getBaseConfig } = require('@ak/docz-core')
 const yargs = require('yargs')
 
 const getDoczConfig = opts => {

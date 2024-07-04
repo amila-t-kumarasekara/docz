@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import { useState } from 'react'
-import { useConfig } from 'docz'
+import { useConfig } from '@ak/docz'
 import { LiveProvider, LiveError, LivePreview, LiveEditor } from 'react-live'
 import { Resizable } from 're-resizable'
 import copy from 'copy-text-to-clipboard'

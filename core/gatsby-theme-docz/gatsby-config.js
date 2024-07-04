@@ -20,7 +20,7 @@ const getRehypePlugins = () => {
   let plugins = []
 
   try {
-    plugins = [require('rehype-docz'), require('rehype-slug')]
+    plugins = [require('@ak/rehype-docz'), require('rehype-slug')]
   } catch (err) {
     plugins = []
   }

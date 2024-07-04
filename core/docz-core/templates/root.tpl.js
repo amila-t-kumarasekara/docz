@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Router, Routes<% if (!isProd) {%>, useDataServer<%}%> } from 'docz'
+import { Link, Router, Routes<% if (!isProd) {%>, useDataServer<%}%> } from '@ak/docz'
 <% if (!isProd) {%>import { hot } from 'react-hot-loader'<%}%>
 import Theme from '<%- theme %>'
 

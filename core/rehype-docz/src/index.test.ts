@@ -3,7 +3,7 @@ import remarkDocz from '@ak/remark-docz'
 import plugin from './'
 
 const content = `
-import { Playground } from 'docz'
+import { Playground } from '@ak/docz'
 
 <Playground>
   {() => {

@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-require('docz-core').cli()
+require('@ak/docz-core').cli()

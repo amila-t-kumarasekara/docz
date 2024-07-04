@@ -1,5 +1,5 @@
 {
-  "name": "e2e-tests",
+  "name": "@ak/e2e-tests",
   "version": "2.2.0",
   "private": true,
   "description": "",
@@ -13,16 +13,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "docz": "^1.2.0",
-    "execa": "^2.0.4",
+    "@ak/docz": "^2.4.0",
+    "execa": "^9.3.0",
     "fs-extra": "^11.2.0",
     "lodash": "^4.17.21",
-    "tmp": "^0.1.0"
+    "tmp": "^0.2.3"
   },
   "devDependencies": {
-    "@testing-library/testcafe": "^2.1.1",
-    "kill-port": "^1.5.1",
-    "testcafe": "^1.4.1",
+    "@testing-library/testcafe": "^5.0.1",
+    "@devjskit/kill-port": "^1.0.0",
+    "testcafe": "^3.6.2",
     "wait-on": "^7.2.0"
   }
 }
